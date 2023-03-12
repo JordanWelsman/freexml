@@ -44,7 +44,7 @@ setup(
         "Programming Language :: Python :: 3.12"
     ],
     package_data = {
-      'opxml': py_modules
+      'openxml': py_modules
       },
     python_requires=python_version,
     install_requires = [
