@@ -1,0 +1,14 @@
+# MacOS
+.DS_Store
+
+# Python
+.venv/
+
+# Package
+test.py
+
+# Setuptools
+build/
+dist/
+openxml.egg-info/
+**/__pycache__/
