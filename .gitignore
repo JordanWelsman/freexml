@@ -10,5 +10,5 @@ test.py
 # Setuptools
 build/
 dist/
-openxml.egg-info/
+freexml.egg-info/
 **/__pycache__/
