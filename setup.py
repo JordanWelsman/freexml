@@ -9,12 +9,12 @@ python_version = ">=3.10"
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-# openxml package data
+# freexml package data
 py_modules = []
 
 # Run setup function
 setup(
-    name='openxml',
+    name='freexml',
     version=version,
     description='An open-source XML generator and parser.',
     license='MIT',
@@ -22,8 +22,8 @@ setup(
     long_description_content_type='text/markdown',
     author='Jordan Welsman',
     author_email='jordan.welsman@outlook.com',
-    url='https://pypi.org/project/openxml/',
-    download_url='https://github.com/JordanWelsman/openxml/tags',
+    url='https://pypi.org/project/freexml/',
+    download_url='https://github.com/JordanWelsman/freexml/tags',
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
@@ -44,7 +44,7 @@ setup(
         "Programming Language :: Python :: 3.12"
     ],
     package_data = {
-      'openxml': py_modules
+      'freexml': py_modules
       },
     python_requires=python_version,
     install_requires = [
